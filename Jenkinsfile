@@ -1,7 +1,7 @@
 #!groovy
 
 node {
-     stage 'Test' {
+     stage('Test') {
      	   println 'Hello, world!'
      }
 }
